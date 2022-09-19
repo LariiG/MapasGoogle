@@ -1,0 +1,10 @@
+
+<!-- google-maps-demo.component.html -->
+
+<google-map height="400px"
+            width="100vh"
+            [center]="center"
+            [zoom]="zoom"
+            (mapClick)="moveMap($event)"
+            (mapMousemove)="move($event)">
+</google-map>
